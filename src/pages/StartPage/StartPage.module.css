@@ -1,0 +1,90 @@
+.wrapper{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+height: 100vh;
+    background-image: url("/public/stars.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.container{
+    font-family: 'Press Start 2P', 'Russo One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #b3e6ef;
+    letter-spacing: 3px;
+    width: fit-content;
+    font-size: 1rem;
+}
+
+.den{
+    color: yellowgreen;
+    letter-spacing: 1.5rem;
+    font-size: 3em;
+
+}
+.den:first-letter{
+    color: orangered;
+}
+.den::after{
+    content: "Н";
+    color: yellow;
+}
+.chik{
+    color: palevioletred;
+    letter-spacing: 1.5rem;
+    font-size: 3em;
+    margin: 0;
+}
+.chik:first-letter{
+    color: cornflowerblue;
+}
+.chik::after{
+    content: "К";
+    color: darkmagenta;
+}
+.y, .q{
+    font-size: 2rem;
+}
+.y{
+    color: goldenrod;
+    position: relative;
+    left: 70%;
+    margin-top: -7px;
+    transform: rotate(16deg);
+}
+.q{
+    color: inherit;
+    position: relative;
+    left: 55%;
+    margin-top: 20px;
+    transform: rotate(16deg);
+    font-size: 2.3rem;
+    animation: 3s linear infinite rotate;
+
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.wrapper button{
+    font-family: "Press Start 2P", "Russo One", sans-serif;
+    font-size: 1rem;
+    background-color: aqua;
+    color: #292e2f;
+    padding: 15px;
+    border: none;
+}
+.wrapper button:hover{
+    cursor: pointer;
+}

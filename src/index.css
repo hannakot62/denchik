@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('/public/fonts/Press_Start_2P,Russo_One/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype')
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Russo One';
+    src: url('/public/fonts/Press_Start_2P,Russo_One/Russo_One/RussoOne-Regular.ttf') format('truetype')
 }
